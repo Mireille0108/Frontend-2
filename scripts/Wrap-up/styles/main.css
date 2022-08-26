@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap');
 html, body{
     margin: 0;
@@ -31,6 +32,12 @@ section form h2.form-title{
     text-align: center;
 
 }
+section header h2.Sign-Up-Header{
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
+    color: white
+}
 
 section form.form-container{
     width: 50%;
@@ -39,7 +46,7 @@ section form.form-container{
     flex-direction: column;
     justify-content: center;
     padding: 1rem;
-    background-color: whitesmoke;
+    background-color: black;
     border-radius: 10px;
     animation: bgFlyIn 3s linear;
 }
@@ -58,7 +65,7 @@ section form button.submit-btn{
     text-align: center;
     color: white;
 }
-section form button.submit-btn:hover{
+*.submit-btn:hover{
     background-color: teal;
     cursor: pointer;
     transition: 2s all;
@@ -75,6 +82,7 @@ section form input.form-control{
     text-align: center;
     color: white;
 }
+/*
 @keyframes bgFlyIn {
     0% {
       background-color:rgb(16, 150, 16);  
@@ -115,4 +123,14 @@ section form input.form-control{
         left: 0px;
         top: 0px
     }
+}*/
+
+
+
+@media (max-width:375px){  
+    section form button.submit-btn{
+width: 78px;
+font-size: size 0.8rem;
+background-color:22px;
 }
+    };
