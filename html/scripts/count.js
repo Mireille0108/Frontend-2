@@ -20,16 +20,7 @@ let myBody = document.getElementById("counts")
 },1000)
 */
 
-function myCount() {
-    switch (true) {
-        case (counter % 2 == 0):
-            myBody.backgroundColor.style = "green"
-            
-            break;
-            case(counter % 5 == 0):
-            myBody.backgroundColor. style = "yellow"
-            break;
-            setInterval(myCount, 1000)
+ 
 
     
     }

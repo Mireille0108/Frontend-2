@@ -7,13 +7,13 @@
 //Note:Tins can have the asme name.
 //the dataset of names is given below.
 //Names = ["Alpha Milk", "baby Food", "Best Milk", "BMIC", "OMIM"](1hr)
-/*let carton = []
-let tinOfMilk = 10
-for (let tinOfMilk = 0; tinOfMilk <=10; tinOfMilk++) {
-    carton.push[tinOfMilk]
-    
-}
-console.log(tinOfMilk);
+    /*let carton = []
+    let tinOfMilk = 10
+    for (let tinOfMilk = 0; tinOfMilk <=10; tinOfMilk++) {
+        carton.push[tinOfMilk]
+        
+    }
+    console.log(tinOfMilk);
 
 let labeleNames = ['Alpha Milk', 'Baby Food', 'BMIC', 'OMIM']
 for (let tinOfMilk = 0; tinOfMilk < labeleNames.length; tinOfMilk++) {
